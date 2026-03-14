@@ -6,31 +6,32 @@
     <title>Name-tag</title>
 </head>
 <body>
-    <h1> Hello, My Name Is...</h1>
-    <p>Type below and watch the tag update live</p>
-    <input 
-    type="text" 
-    placeholder="Type your name...">
-    <style> h1{ 
-        display: flex;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-    }
-    p{ 
-        display: flex;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        color:grey;
-        font-size: 20px;
-    }
-    input{
-        display: flex;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        justify-self: center;
-    }</style>
+    <div>
+        <center><h1> Hello, My Name Is...</h1>
+        <p>Type below and watch the tag update live</p>
+        <input 
+        type="text" 
+        placeholder="Type your name..."></center>
+        <style> h1{ 
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            color:grey;
+            font-size: 20px;
+        }
+        input{
+            width: 18rem;
+            height:3rem;
+            font-size: medium;
+        }</style>
+    </div>
+
+    <div class="2-div">
+        <center><p>HELLO! <br> my name is </p></center>
+        <p>oninput=updateName()</p>
+    </div>
 </body>
 </html>
